@@ -12,7 +12,7 @@ using namespace std;
  const char CONVPCT=100;//percent conversion
 //Function Prototypes
 //Execution Begins Here
-int main(int argc, char** argv) {
+ int main(int argc, char** argv) {
     //declare and initialize variables
     float skprice=2.177e1f;//stock price in $'s
     unsigned short nshares=600;//number of shares of stock
@@ -28,5 +28,5 @@ int main(int argc, char** argv) {
     cout<<"Total Paid  = $"<<setw(8)<<totPaid<<endl;
     //Exit stage right!
     return 0;
-}
+ }
 
