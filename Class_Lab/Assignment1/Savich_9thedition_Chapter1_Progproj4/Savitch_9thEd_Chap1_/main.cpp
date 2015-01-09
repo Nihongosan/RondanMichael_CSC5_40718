@@ -1,7 +1,6 @@
 /* 
- * File:   main.cpp
+ * File:   math
  * Author: Rondan, Michael
- *
  * Created on January 8, 2015, 6:25 PM
  * purpose: homework assignment 1
  */
