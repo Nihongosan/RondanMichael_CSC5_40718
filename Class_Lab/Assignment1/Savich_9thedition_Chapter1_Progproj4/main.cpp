@@ -22,7 +22,7 @@ int main(int argc, char** argv) {
     unsigned int time;//(secs)
     float dist;//distance (ft)
     //Prompt user for input
-    cout<<"This program calcualtes free fall"<<endl;
+    cout<<"This program calculates free fall"<<endl;
     cout<<"Distance dropped in feet with an"<<endl;
     cout<<"Object starting at rest"<<endl;
     cout<<"Input the free-fall time to drop in seconds"<<endl;
