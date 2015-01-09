@@ -15,11 +15,11 @@ using namespace std;
 //Function Prototypes
 //Execution Begins Here!/
 int main(int argc, char** argv) {
-  //Declare variables
+    //Declare variables
     int op1,op2,sum=0,prod=0;
     //prompt for the two operands
     cout<<"Input 2 integers having a range of [-2^31,2^31-1]"
-            cin>>op1>>op2;
+    cin>>op1>>op2;
     //calculate the sum and product
     sum=sum+op1;
     sum=sum+op2;
