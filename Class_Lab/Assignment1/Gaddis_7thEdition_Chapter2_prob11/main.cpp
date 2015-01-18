@@ -30,6 +30,7 @@ int main(int argc, char** argv) {
     cout<<disTown<<"(miles)"<<endl;
     cout<<"Distance on Highway with a tank of gas = "<<endl;
     cout<<disHway<<"(miles)"<<endl;
+    //Exit stage right!
     return 0;
 }
 
