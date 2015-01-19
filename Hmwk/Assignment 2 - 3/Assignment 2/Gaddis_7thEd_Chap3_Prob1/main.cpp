@@ -1,28 +1,32 @@
 /* 
- * File: Gaddis_7thEd_Chap3_Prob1
+ * File: Gaddis_7thEd_Chap3_prob1
  * Author: Michael Rondan
- * Purpose: Miles Per Gallon
- * Created on January 18, 2015, 11:35 AM
+ * purpose: Mileage
+ * Created on January 18, 2015, 1:33 PM
  */
-//System Libraries
+
 #include <iostream>
 
-///User Libraries
-
-//Global Constants
 using namespace std;
 
-//Function Prototypes
 
-//Execution Begins Here
-
-int main(int argc, char** argv) {
-    //Declare and Initialize variables
-    cout<<"How many gallons are in a tank?"<<endl;
-    cin>>gallons
-    cout<<"How many miles can you drive on a tank?"<<endl;
-    cout<<gallons/miles
-    //Exit stage right!
+int main(int argc, char** argv) 
+{
+    int gallons,miles,MPG;
+    //input max Gallons in the tank
+    cout << "how many gallons? ";
+    cin >> gallons;
+    
+    //Miles per Gallon?
+    cout << "How many miles can you go on a tank? ";
+    cin >> miles;
+    
+    //Mileage
+    MPG = miles/gallons;
+    
+    //Display
+    cout << "your Miles per gallon is " << MPG << endl;
+    
     return 0;
 }
 
