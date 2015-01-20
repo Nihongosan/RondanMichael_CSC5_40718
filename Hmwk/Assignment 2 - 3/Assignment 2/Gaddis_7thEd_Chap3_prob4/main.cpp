@@ -4,13 +4,15 @@
  * purpose: Average rainfall
  * Created on January 18, 2015, 5:46 PM
  */
-
+//System Libraries
 #include <iostream>
-
 using namespace std;
-
+//User Libraries
+//Global Constants
+//Function Prototypes
+//Execution Begins Here!
 int main(int argc, char** argv)
-{
+{//Declare and Initialize Variables
  float rain1, rain2, rain3, in, is, AVG;
     //input amount of rain in inches
     cout<<"input amount of rain in inches ";
@@ -20,13 +22,10 @@ int main(int argc, char** argv)
     cin>> rain2;
     //input amount of rain in inches
     cout<<"input amount of rain3 in inches ";
-    cin>> rain3;
-    
+    cin>> rain3;    
     //Display
     AVG = (rain1 + rain2 + rain3)/3;
-    
     cout<<"The average rainfall is " << AVG << endl;
-    
     return 0;
 }
 

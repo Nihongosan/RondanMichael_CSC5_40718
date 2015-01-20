@@ -3,13 +3,15 @@
  * purposes: How many Widget?
  * Created on January 18, 2015, 9:16 PM
  */
-
+//System Libraries
 #include <iostream>
-
 using namespace std;
-
+//User Libraries
+//Global Constants
+//Function Prototypes
+//Execution Begins Here!
 int main(int argc, char** argv)
-{
+{//Declare and Initialize Variables
  float wdgs, paletWt, loadWt, WdgWt=9.2;
     //input weight of the pallet by itself
     cout<<"input weight of pallet separately in lbs ";

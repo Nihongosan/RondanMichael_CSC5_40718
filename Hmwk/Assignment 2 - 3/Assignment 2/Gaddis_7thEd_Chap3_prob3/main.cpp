@@ -1,21 +1,19 @@
 /* 
  * File: Gaddis_7thEd_Chap3_prob3
- * Author: michael Rondan
- * purpose: test average
+ * Author: Michael Rondan
+ * purpose: Test Average
  * Created on January 18, 2015, 1:00 PM
  */
-
+//System Libraries
 #include <iostream>
-
 using namespace std;
-
-/*
- * 
- */
+//User Libraries
+//Global Constants
+//Function Prototypes
+//Execution Begins Here!
 int main(int argc, char** argv)
-{
+{  //Declare and Initialize Variables
    int score1, score2, score3, score4, score5, AVG;
-    
     //input test score 1
     cout<<"test score1 = ";
     cin>> score1;
@@ -33,9 +31,7 @@ int main(int argc, char** argv)
     cin>> score5;
     //Display
     AVG = (score1 + score2 + score3 + score4 + score5)/5;
-    cout << "your average is: " << AVG << endl;
-   
-    
+    cout << "your average is: " << AVG << endl; 
     return 0;
 }
 

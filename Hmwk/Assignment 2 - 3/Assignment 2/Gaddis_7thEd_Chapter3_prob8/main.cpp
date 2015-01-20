@@ -1,16 +1,13 @@
 /* 
- * File:   main.cpp
- * Author: micha_000
- *
+ * File: Gaddis_7thEd_Chapter3_prob8
+ * Author: Michael Rondan
+ * Purpose: How Much Insurance?
  * Created on January 19, 2015, 9:12 AM
  */
 
 #include <iostream>
 
 using namespace std;
-
-//Global Constants
-
 
 int main(int argc, char** argv)
 {
