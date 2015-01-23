@@ -24,7 +24,7 @@ int main(int argc, char** argv) {
     avg=max=min=input;
     //For loop to read in the next 4 values
     for(int readin=2;readin<=5;readin++){
-        cout<<"What is Judge #"<<readin<<"'s score"<<endl;
+        cout<<"What is Judge #"<<readin<<"'s score!"<<endl;
         cin>>input;
         if(max<input)max=input;
         if(max>input)max=input;
